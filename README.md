@@ -30,8 +30,8 @@ ollama pull llama3.2
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/interactive-data-analyzer.git
-cd interactive-data-analyzer
+git clone https://github.com/khoshfekr1994/LLM-biomarker-analyzer.git
+cd LLM-biomarker-analyzer
 ```
 
 2. **Install dependencies**
@@ -48,12 +48,12 @@ ollama serve
 
 ### Option 1: Direct Run
 ```python
-python src/interactive_analyzer.py
+python src/LLM_biomarker_analyzer.py
 ```
 
 ### Option 2: Import in Your Code
 ```python
-from src.interactive_analyzer import InteractiveDataAnalyzer
+from src.LLM_biomarker_analyzer import InteractiveDataAnalyzer
 
 # With file path
 analyzer = InteractiveDataAnalyzer("your_data.csv")
